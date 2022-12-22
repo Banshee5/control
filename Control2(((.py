@@ -5,4 +5,4 @@ while True:
     if num == 0:
         break
 
-print(*sorted(list))
+print(*sorted(list[0:-1]), sep='\r\n')
